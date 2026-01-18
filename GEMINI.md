@@ -1,6 +1,6 @@
 # Project Overview
 
-This project is a simple, static website for "Dungloe Hydraulics & Fabrication". It is built with plain HTML and CSS. The website displays the business's location, opening hours, and contact information. It is configured for deployment using Firebase Hosting.
+This project is a simple, static website for "Dungloe Hydraulics & Fabrication". It is built with plain HTML and CSS. The website displays the business's location, opening hours, and contact information. It is hosted on Netlify.
 
 ## Building and Running
 
@@ -10,12 +10,7 @@ There is no build process for this project. To view the website locally, open th
 
 ### Deployment
 
-This project is set up for Firebase Hosting. To deploy the website, you will need the Firebase CLI.
-
-```bash
-# Deploy to Firebase Hosting
-firebase deploy --only hosting
-```
+This project is hosted on Netlify and is configured for continuous deployment. Pushing a commit to the `main` branch on GitHub will automatically trigger a new deployment.
 
 ## Development Conventions
 
